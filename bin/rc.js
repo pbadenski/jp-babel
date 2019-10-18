@@ -281,7 +281,7 @@ function parseCommandArgs(context, options) {
     context.args.kernel = [];
     context.args.frontend = [
         "jupyter",
-        "notebook",
+        "lab",
     ];
 
     /* eslint-disable complexity */
